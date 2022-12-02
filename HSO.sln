@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED45E1E1-FB51-46A9-8735-B118EDA0D6AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B9B3E979-176F-4E7B-9F73-7632EA8169BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSO.API", "src\HSO.API\HSO.API.csproj", "{D0A55798-A289-4BD3-89E7-08D2574F5824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSO.API.Test", "test\HSO.API.Test\HSO.API.Test.csproj", "{CAF20C40-8979-4F93-B3B8-0616BF7E8C75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A55798-A289-4BD3-89E7-08D2574F5824} = {ED45E1E1-FB51-46A9-8735-B118EDA0D6AA}
+		{CAF20C40-8979-4F93-B3B8-0616BF7E8C75} = {B9B3E979-176F-4E7B-9F73-7632EA8169BC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A55798-A289-4BD3-89E7-08D2574F5824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A55798-A289-4BD3-89E7-08D2574F5824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A55798-A289-4BD3-89E7-08D2574F5824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A55798-A289-4BD3-89E7-08D2574F5824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF20C40-8979-4F93-B3B8-0616BF7E8C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF20C40-8979-4F93-B3B8-0616BF7E8C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF20C40-8979-4F93-B3B8-0616BF7E8C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF20C40-8979-4F93-B3B8-0616BF7E8C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
